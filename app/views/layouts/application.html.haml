@@ -7,6 +7,16 @@
     = stylesheet_link_tag    "application"
     = javascript_include_tag "vendor/modernizr"
     = csrf_meta_tags
+    %link{:href => "http://fonts.googleapis.com/css?family=Droid+Serif:400,700", :rel => "stylesheet", :type => "text/css"}/
   %body
-    = yield
-    = javascript_include_tag "application"
+    #navigation
+      %div#navigation{"data-magellan-expedition" => "fixed"}
+        %ul.sub-nav
+          %li{"data-magellan-arrival" => "build"}
+            %a{:href => "#build"} Home
+          %li{"data-magellan-arrival" => "js"}
+            %a{:href => "#js"} Projects
+    .content-container    
+      = yield
+
+      = javascript_include_tag "application"
