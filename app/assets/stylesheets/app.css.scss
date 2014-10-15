@@ -18,7 +18,23 @@ $headerFont:  'Droid Serif', serif;
   width: 100%;
   height: 500px;
   background-color: $themeColorRed;
-  font-family: $headerFont
+  font-family: $headerFont;
+  color:white;
+}
+.header h1, .header h3{
+  color:white;
+  font-family: $headerFont;
+}
+.main h2, .main h4, .main h3{
+  color:white;
+  font-family: $headerFont;
+  text-align: center;
+
+}
+.stack-container ul li{
+  display:block;
+  float:left;
+  padding:10px;
 }
 .intro{
   
@@ -43,9 +59,13 @@ section{
   background-color:$themeColorYellow;
   width:100%;
   height:100%;
+
 }
 .ga-projects-container{
   background-color: $themeColorRed;
   width:100%;
   height:100%;
+}
+.ga-projects-container h3{
+  text-align: left;
 }
