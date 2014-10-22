@@ -13,9 +13,14 @@
       %div#navigation{"data-magellan-expedition" => "fixed"}
         %ul.sub-nav
           %li{"data-magellan-arrival" => "build"}
-            %a{:href => "#build"} Home
+            %a{:href => "#home"} Home
           %li{"data-magellan-arrival" => "js"}
-            %a{:href => "#js"} Projects
+            %a{:href => "#aboutMe"} About me
+          %li{"data-magellan-arrival" => "build"}
+            %a{:href => "#projects"} Projects
+          %li{"data-magellan-arrival" => "js"}
+            %a{:href => "#contact"} Contact
+        
     .content-container    
       = yield
 

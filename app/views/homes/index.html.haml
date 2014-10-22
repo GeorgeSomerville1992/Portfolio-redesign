@@ -3,14 +3,16 @@
     .row
       .small-9.columns
         #George
+          %a{:name => "home"}
           %h1 George Somerville
         .small-intro  
-          %h3 This is my site...
+          %h3 Welcome to my Site.
 .main
   %section
     .info-container
       .row.small-padding
-        %h2 About me
+        %a{:name => "aboutMe"}
+        %h2{"data-magellan-destination" => "aboutMe"} About Me
       .row.small-padding
         %h4 I'm a Developer with a strong interest in design and creativity.
       .row.small-padding
@@ -59,6 +61,7 @@
     .ga-projects-container
       .row
         .small-12.columns
+          %a{:name => "projects"}
           %h2 GA Projects  
       .row.small-padding
         .small-8.columns
@@ -113,7 +116,42 @@
         .small-4.columns
           .img-container-project
             %a{href: "http://obscure-shelf-3700.herokuapp.com/"}
-              %img{src: "assets/designs.png"}            
+              %img{src: "assets/designs.png"}   
+  %section
+    .contact-container
+      .row
+        .small-12.columns 
+          %h2 Contact
+          %a{:name => "contact"}
+      .row
+        .small-6.columns
+          %ul 
+            %li
+              %h3 
+                %img{src: "assets/user.png"}
+                George Somerville
+            %li
+              %h3 
+                %img{src: "assets/phone.png"}
+                07990073642
+            %li
+              %h6 
+                %img{src: "assets/email.png"}
+                georgesomerville1992@gmail.com
+        .small-6.columns
+          %ul
+            %li
+              %h3
+                %img{src: "assets/github.png"}
+                %a#linkFont{href: "https://github.com/GeorgeSomerville1992"} github
+            %li
+              %h3
+                %img{src: "assets/linkedin.png"}
+                %a#linkFont{href: "https://www.linkedin.com/in/georgesomerville1992"} linkedin
+            %li
+              %h3
+                %img{src: "assets/tumblr.png"}
+                %a#linkFont{href: "https://www.tumblr.com/blog/georgesomerville1992"} tumblr         
 
 
 
