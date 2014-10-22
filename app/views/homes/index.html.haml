@@ -9,27 +9,31 @@
 .main
   %section
     .info-container
-      .row 
-        %h2
-          About me
-        %h4
-          I'm a Developer with a strong interest in design and creativity.
-      .row
+      .row.small-padding
+        %h2 About me
+      .row.small-padding
+        %h4 I'm a Developer with a strong interest in design and creativity.
+      .row.small-padding
         .medium-3.columns
-          %img{src: "/assets/ruby-on-rails.png"}
-          //image
           %h4 Magic & Rails
+          .image-container.small-padding
+            %img{src: "/assets/ruby-on-rails.png"}
+          %p Automation, scaffolding, Gems and Rails Casts. What more could you want? I'm currently reading the Rails 4 way by Obie Fernandez. 
         .medium-3.columns
-          / %img{src: "/assets/"}
-          %h3 Beer & Friends
+          %h4 Beer & Friends
+          .image-container.small-padding
+            %img{src: "/assets/beer.png"}
+          %p I thrive off working as part of a team and a real buzz in sharing my ideas with people.
         .medium-3.columns
-          // image
-          %h3 Big Data & APIS
-          %p I like to use a alot javascirpt and mashing together lots of API's to create cool new things.
+          %h4 Big Data & Api's
+          .image-container.small-padding
+            %img{src: "/assets/data-apis.png"}
+          %p I love Javascript and creating cool things by mashing API's together, especially with Google maps.
         .medium-3.columns
-          // image
-          %h3 Gym & Fitness
-          %p because i cannot sit on my arse all day. 
+          %h4 Gym & Fitness
+          .image-container.small-padding
+            %img{src: "/assets/gym.png"}
+          %p Staying fit and active is just as important as sitting at a screen all day.
 
   %section{style: "height: 300px;"}
     .stack-container
@@ -61,7 +65,7 @@
           %h3 Budgie Backpackers
           %p Budgie Backpackers enables travellers on a budget to find the cheapest hostels/hotels within a searched city or current location. They can also find various attractions via a search term and see who’s checking as well as reviews. Finally they will also be able to pickup any discounts or deals within a searched area (work in progress)
         .small-4.columns
-          .img-container
+          .img-container-project
             %a{href: "http://budgie-backpackers-1992.herokuapp.com/"}
               %img{src: "assets/budgiebackpackers.png"}
       .row.small-padding
@@ -69,7 +73,7 @@
           %h3 Music App
           %p A music sharing website where artists can create profiles and share songs. This was the first app I developed and I use it as a great reminder of how far I have come as a developer. I made this app using Ruby on Rails, HTML 5 and CSS 3.
         .small-4.columns
-          .img-container
+          .img-container-project
             %a{href: "http://george-1992-project-one.herokuapp.com/"}
               %img{src: "assets/musicapp.png"}  
       .row.small-padding
@@ -77,7 +81,7 @@
           %h3 Wifinder        
           %p  Create and save your Wifi networks, view friends networks and share networks with your friends. This was my Second project which I developed different parts of it within a group. I was task with developing the layout, homepage and creating animation using CSS3 and javascript. 
         .small-4.columns 
-          .img-container
+          .img-container-project
             %a{href: "http://mighty-springs-1118.herokuapp.com/"}
               %img{src: "assets/wifinder.png"}  
   %section{style: "height:100%"}
@@ -91,7 +95,7 @@
           %h3 Robot Movement
           %p A small project/game I created using pure Javascript in my spare time. It uses a grid system and a marker which is moveable via directional buttons.This was a real challenge as a great deal of logic was used unlike my previous projects. I enjoyed creating it and I am currently adding some cool features and looking at expanding its functionality.    
         .small-4.columns 
-          .img-container
+          .img-container-project
             %a{href: "http://obscure-shelf-3700.herokuapp.com/"}
               %img{src: "assets/robot-movement.png"}   
       .row.small-padding
@@ -99,7 +103,7 @@
           %h3 Tic-Tac-Toe
           %p One of the other options for our first project at GA was to create a Tic-Tac-Toe app. I decided to create this in my spare time using Ruby on rails and Javascript. 
         .small-4.columns
-          .img-container
+          .img-container-project
             %a{href: "http://obscure-shelf-3700.herokuapp.com/"}
               %img{src: "assets/tictactoe.png"}  
       .row.small-padding
@@ -107,7 +111,7 @@
           %h3 Other Self Study Designs/projects
           %p A collection of projects made within my spare time using adobe Dreamweaver and Fireworks, code available on request. 
         .small-4.columns
-          .img-container
+          .img-container-project
             %a{href: "http://obscure-shelf-3700.herokuapp.com/"}
               %img{src: "assets/designs.png"}            
 

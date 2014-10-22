@@ -79,11 +79,16 @@ section{
   text-align: left;
 }
 
-.img-container img{
+.img-container-project img{
   width:240px;
   height:240px; 
   border-radius: 10px;
   border: 1px solid yellow;
+}
+.image-container img{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
 }
 .small-padding{
   padding-top: 10px;
