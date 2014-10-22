@@ -57,9 +57,7 @@ p{
   float:left;
   padding:10px;
 }
-.intro{
-  
-}
+
 #navigation{
   background-color:$themeColorRed;
   
@@ -69,7 +67,7 @@ p{
 }
 section{
   width:100%;
-  height:500px;
+  height:100%;
 }
 .info-container{
   background-color:$themeColorOrange;
@@ -142,7 +140,11 @@ section{
 .image-container img{
   width: 150px;
   height: 150px;
-  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: -35px;
+
 }
 .small-padding{
   padding-top: 10px;
