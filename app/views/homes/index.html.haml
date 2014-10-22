@@ -51,7 +51,7 @@
           %li 
             %img{src: "/assets/git-logo.png", style:"width:80px; height:90px"} 
            
-  %section 
+  %section{style: "height:100%"}
     .ga-projects-container
       .row
         .small-12.columns
@@ -61,13 +61,28 @@
           %h3 Budgie Backpackers
           %p Budgie Backpackers enables travellers on a budget to find the cheapest hostels/hotels within a searched city or current location. They can also find various attractions via a search term and see who’s checking as well as reviews. Finally they will also be able to pickup any discounts or deals within a searched area (work in progress)
         .small-4.columns
-          %a{href: "http://budgie-backpackers-1992.herokuapp.com/"}
-            %img{src: "assets/budgiebackpackers.png", style: "width:240px; height:240px;"}
-      .row
+          .img-container
+            %a{href: "http://budgie-backpackers-1992.herokuapp.com/"}
+              %img{src: "assets/budgiebackpackers.png"}
+      .row.small-padding
         .small-8.columns
           %h3 Music App
           %p A music sharing website where artists can create profiles and share songs. This was the first app I developed and I use it as a great reminder of how far I have come as a developer. I made this app using Ruby on Rails, HTML 5 and CSS 3.
         .small-4.columns
-          %a{href: "http://george-1992-project-one.herokuapp.com/"}
-            %img{src: "assets/musicapp.png", style: "width:240px; height:240px;"}  
+          .img-container
+            %a{href: "http://george-1992-project-one.herokuapp.com/"}
+              %img{src: "assets/musicapp.png"}  
+      .row.small-padding
+        .small-8.columns
+          %h3 Wifinder        
+          %p  Create and save your Wifi networks, view friends networks and share networks with your friends. This was my Second project which I developed different parts of it within a group. I was task with developing the layout, homepage and creating animation using CSS3 and javascript. 
+        .small-4.columns 
+          .img-container
+            %a{href: "http://mighty-springs-1118.herokuapp.com/"}
+              %img{src: "assets/wifinder.png"}  
+  %section{style: "height:100%"}
+    .ga-projects-selfstudy-container
+      .row
+        .small-12.columns
+          %h2 Self study projects            
 
