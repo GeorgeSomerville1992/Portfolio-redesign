@@ -7,56 +7,56 @@ $themeColorOrange: #FF9420;
 $headerFont:  'Droid Serif', serif;
 // extra greenish themecolor
 $paragraphFont: #FCF8ED;
-#tablet-navigation{
-  display:none;
-}
-nav ul li{
-  float:left;
-  padding:10px;
-  display: none;
-}
-a.hamburger{
-  display:none;
+// #tablet-navigation{
+//   display:none;
+// }
+// nav ul li{
+//   float:left;
+//   padding:10px;
+//   display: none;
+// }
+// a.hamburger{
+//   display:none;
 
-}
+// }
 
-@media only screen and (max-width: 479px) {
-    nav ul li {
-      display: block;
-      a{
-        color: $paragraphFont;
-        text-transform: capitalize;
-      }
-    }
-    #navigation{
-      display:none;
-    }
-    .hamburger-container{
-      text-align: center;
-    }
-    .hamburger-container h3 {
-      color: $paragraphFont;
-      text-transform: capitalize;
-      font-family: $headerFont;
-      float: right;
-      margin-right: 140px;
-    }
+// @media only screen and (max-width: 479px) {
+//     nav ul li {
+//       display: block;
+//       a{
+//         color: $paragraphFont;
+//         text-transform: capitalize;
+//       }
+//     }
+//     #navigation{
+//       display:none;
+//     }
+//     .hamburger-container{
+//       text-align: center;
+//     }
+//     .hamburger-container h3 {
+//       color: $paragraphFont;
+//       text-transform: capitalize;
+//       font-family: $headerFont;
+//       float: right;
+//       margin-right: 140px;
+//     }
 
-    #tablet-navigation{
-      display:block;
-    }
-    a.hamburger{
-      display:block;
-      width: 48px;
-      height: 48px;
-      background-image: url('/assets/burger-menu.png');
-      background-repeat: no-repeat;
-      text-indent: -9999em;
-      /*background-size: cover; use if you want the image to go in cover... */
-      /* always use render */ 
+//     #tablet-navigation{
+//       display:block;
+//     }
+//     a.hamburger{
+//       display:block;
+//       width: 48px;
+//       height: 48px;
+//       background-image: url('/assets/burger-menu.png');
+//       background-repeat: no-repeat;
+//       text-indent: -9999em;
+//       /*background-size: cover; use if you want the image to go in cover... */
+//       /* always use render */ 
 
-    }
-}
+//     }
+// }
 
 .content-container {
   width: 100%;
