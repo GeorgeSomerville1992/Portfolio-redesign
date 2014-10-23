@@ -7,6 +7,56 @@ $themeColorOrange: #FF9420;
 $headerFont:  'Droid Serif', serif;
 // extra greenish themecolor
 $paragraphFont: #FCF8ED;
+#tablet-navigation{
+  display:none;
+}
+nav ul li{
+  float:left;
+  padding:10px;
+  display: none;
+}
+a.hamburger{
+  display:none;
+
+}
+
+@media only screen and (max-width: 479px) {
+    nav ul li {
+      display: block;
+      a{
+        color: $paragraphFont;
+        text-transform: capitalize;
+      }
+    }
+    #navigation{
+      display:none;
+    }
+    .hamburger-container{
+      text-align: center;
+    }
+    .hamburger-container h3 {
+      color: $paragraphFont;
+      text-transform: capitalize;
+      font-family: $headerFont;
+      float: right;
+      margin-right: 140px;
+    }
+
+    #tablet-navigation{
+      display:block;
+    }
+    a.hamburger{
+      display:block;
+      width: 48px;
+      height: 48px;
+      background-image: url('/assets/burger-menu.png');
+      background-repeat: no-repeat;
+      text-indent: -9999em;
+      /*background-size: cover; use if you want the image to go in cover... */
+      /* always use render */ 
+
+    }
+}
 
 .content-container {
   width: 100%;
@@ -46,12 +96,54 @@ $paragraphFont: #FCF8ED;
 p{
   color: $paragraphFont;
 }
-.main h2, .main h4, .main h3, .main h6{
+.main h2, .main h4, .main h3, .main h6, {
   color:white;
   font-family: $headerFont;
   text-align: center;
 
 }
+#small-intro {
+  width:900px;
+  height:100%;
+  position: relative;
+  left:-230px;
+  top: 200px;
+  text-align: center;
+  font-weight: bold;
+
+}
+#small-intro h2, #small-intro h3{
+  color:white;
+  font-family: $headerFont;
+  display:inline;
+  font-size: 60px;
+
+}
+.fade-out{
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+// #small-intro h2 {
+//   animation-duration: 3s;
+//   animation-delay: 2s;
+//   animation-iteration-count: infinite;
+//   transition: all .25s ease-in;
+
+// }
+// #small-intro h3{
+//   color:white;
+//   font-family: $headerFont;
+//   display:inline;
+
+// }
+
+
+
+
+
+
 .stack-container ul li{
   display:block;
   float:left;
