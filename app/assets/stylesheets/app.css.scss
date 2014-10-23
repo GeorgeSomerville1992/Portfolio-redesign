@@ -96,12 +96,41 @@ a.hamburger{
 p{
   color: $paragraphFont;
 }
-.main h2, .main h4, .main h3, .main h6{
+.main h2, .main h4, .main h3, .main h6, {
   color:white;
   font-family: $headerFont;
   text-align: center;
 
 }
+#small-intro {
+  width:900px;
+  height:100%;
+  position: relative;
+  left:-230px;
+  top: 200px;
+  text-align: center;
+  font-weight: bold;
+
+}
+#small-intro h2, #small-intro h3{
+  color:white;
+  font-family: $headerFont;
+  display:inline;
+  font-size: 60px;
+
+}
+// #small-intro h3{
+//   color:white;
+//   font-family: $headerFont;
+//   display:inline;
+
+// }
+
+
+
+
+
+
 .stack-container ul li{
   display:block;
   float:left;
