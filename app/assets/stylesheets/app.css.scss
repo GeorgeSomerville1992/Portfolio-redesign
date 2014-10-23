@@ -84,10 +84,11 @@ a.hamburger{
 .header{
   padding-bottom: 30px;
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-color: $themeColorRed;
   font-family: $headerFont;
   color:white;
+
 }
 .header h1, .header h3{
   color:white;
@@ -110,8 +111,24 @@ p{
   top: 200px;
   text-align: center;
   font-weight: bold;
+    #text-element-one{
+      display:inline;
+    }
+    #text-element-two{
+      display:inline;
+    }
 
 }
+#small-intro #text-element-one{
+  position: relative;
+  left:-30px;
+}
+#small-intro #text-element-two{
+  font-size:20px;
+
+
+}
+
 #small-intro h2, #small-intro h3{
   color:white;
   font-family: $headerFont;
@@ -125,24 +142,6 @@ p{
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
 }
-// #small-intro h2 {
-//   animation-duration: 3s;
-//   animation-delay: 2s;
-//   animation-iteration-count: infinite;
-//   transition: all .25s ease-in;
-
-// }
-// #small-intro h3{
-//   color:white;
-//   font-family: $headerFont;
-//   display:inline;
-
-// }
-
-
-
-
-
 
 .stack-container ul li{
   display:block;
@@ -160,6 +159,7 @@ p{
 section{
   width:100%;
   height:100%;
+  padding-bottom: 10px;
 }
 .info-container{
   background-color:$themeColorOrange;
