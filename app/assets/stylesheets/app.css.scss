@@ -102,6 +102,11 @@ $paragraphFont: #FCF8ED;
 p{
   color: $paragraphFont;
 }
+#George h1{
+  font-size: 80px;
+  display:inline;
+
+}
 .main h2, .main h4, .main h3, .main h6, {
   color:white;
   font-family: $headerFont;
@@ -113,7 +118,7 @@ p{
   height:100%;
   position: relative;
   left:-230px;
-  top: 200px;
+  top: 300px;
   text-align: center;
   font-weight: bold;
 
