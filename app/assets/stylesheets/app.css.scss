@@ -119,6 +119,19 @@ p{
   font-size: 60px;
 
 }
+.fade-out{
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+// #small-intro h2 {
+//   animation-duration: 3s;
+//   animation-delay: 2s;
+//   animation-iteration-count: infinite;
+//   transition: all .25s ease-in;
+
+// }
 // #small-intro h3{
 //   color:white;
 //   font-family: $headerFont;
