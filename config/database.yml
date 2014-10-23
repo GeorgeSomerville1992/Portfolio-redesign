@@ -1,3 +1,4 @@
+
 development:
   adapter: postgresql
   encoding: utf8
@@ -22,5 +23,4 @@ production:
   username: 
   password:
 
-# cucumber:
-#   <<: *TEST
+
