@@ -7,56 +7,61 @@ $themeColorOrange: #FF9420;
 $headerFont:  'Droid Serif', serif;
 // extra greenish themecolor
 $paragraphFont: #FCF8ED;
-#tablet-navigation{
-  display:none;
-}
-nav ul li{
-  float:left;
-  padding:10px;
-  display: none;
-}
-a.hamburger{
-  display:none;
 
-}
 
-@media only screen and (max-width: 479px) {
-    nav ul li {
-      display: block;
-      a{
-        color: $paragraphFont;
-        text-transform: capitalize;
-      }
-    }
-    #navigation{
-      display:none;
-    }
-    .hamburger-container{
-      text-align: center;
-    }
-    .hamburger-container h3 {
-      color: $paragraphFont;
-      text-transform: capitalize;
-      font-family: $headerFont;
-      float: right;
-      margin-right: 140px;
-    }
 
-    #tablet-navigation{
-      display:block;
-    }
-    a.hamburger{
-      display:block;
-      width: 48px;
-      height: 48px;
-      background-image: url('/assets/burger-menu.png');
-      background-repeat: no-repeat;
-      text-indent: -9999em;
-      /*background-size: cover; use if you want the image to go in cover... */
-      /* always use render */ 
 
-    }
-}
+// #tablet-navigation{
+//   display:none;
+// }
+// nav ul li{
+//   float:left;
+//   padding:10px;
+//   display: none;
+// }
+// a.hamburger{
+//   display:none;
+
+// }
+
+// @media only screen and (max-width: 479px) {
+//     nav ul li {
+//       display: block;
+//       a{
+//         color: $paragraphFont;
+//         text-transform: capitalize;
+//       }
+//     }
+//     #navigation{
+//       display:none;
+//     }
+//     .hamburger-container{
+//       text-align: center;
+//     }
+//     .hamburger-container h3 {
+//       color: $paragraphFont;
+//       text-transform: capitalize;
+//       font-family: $headerFont;
+//       float: right;
+//       margin-right: 140px;
+//     }
+
+//     #tablet-navigation{
+//       display:block;
+//     }
+//     a.hamburger{
+//       display:block;
+//       width: 48px;
+//       height: 48px;
+//       background-image: url('/assets/burger-menu.png');
+//       background-repeat: no-repeat;
+//       text-indent: -9999em;
+//       /*background-size: cover; use if you want the image to go in cover... */
+//       /* always use render */ 
+
+//     }
+// }
+
 
 .content-container {
   width: 100%;
@@ -84,10 +89,11 @@ a.hamburger{
 .header{
   padding-bottom: 30px;
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-color: $themeColorRed;
   font-family: $headerFont;
   color:white;
+
 }
 .header h1, .header h3{
   color:white;
@@ -110,8 +116,29 @@ p{
   top: 200px;
   text-align: center;
   font-weight: bold;
+<<<<<<< HEAD
 
 }
+=======
+    #text-element-one{
+      display:inline;
+    }
+    #text-element-two{
+      display:inline;
+    }
+
+}
+#small-intro #text-element-one{
+  position: relative;
+  left:-30px;
+}
+#small-intro #text-element-two{
+  font-size:20px;
+
+
+}
+
+>>>>>>> 8719a843a595c7ad7705d534d200685416c453a0
 #small-intro h2, #small-intro h3{
   color:white;
   font-family: $headerFont;
@@ -125,6 +152,7 @@ p{
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
 }
+<<<<<<< HEAD
 // #small-intro h2 {
 //   animation-duration: 3s;
 //   animation-delay: 2s;
@@ -143,6 +171,8 @@ p{
 
 
 
+=======
+>>>>>>> 8719a843a595c7ad7705d534d200685416c453a0
 
 .stack-container ul li{
   display:block;
@@ -160,6 +190,7 @@ p{
 section{
   width:100%;
   height:100%;
+  padding-bottom: 10px;
 }
 .info-container{
   background-color:$themeColorOrange;
