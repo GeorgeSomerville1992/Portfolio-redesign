@@ -1,6 +1,6 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="2816" measuredH="983" mockupW="2816" mockupH="963">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="2928" measuredH="1054" mockupW="2928" mockupH="1034">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="49" y="20" w="1432" h="422" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="49" y="20" w="1432" h="422" measuredW="1421" measuredH="730" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/theme%2520one%2520.png</src>
       </controlProperties>
@@ -10,27 +10,33 @@
         <text>cool%20theme%2C%20black%20and%20white%2C%20small%20otuch%20of%20red%0A%20%0Athin%20whriting%20combined%20with%20a%20thick%20extra%20comically</text>
       </controlProperties>
     </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="673" y="442" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="673" y="442" w="-1" h="-1" measuredW="1207" measuredH="581" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/colorfull%2520team.png</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="1740" y="62" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="1740" y="62" w="-1" h="-1" measuredW="786" measuredH="648" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/color.png</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="1786" y="684" w="1030" h="299" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="1786" y="684" w="1030" h="299" measuredW="570" measuredH="143" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/palet%2520two.png</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="0" y="404" w="777" h="498" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="0" y="404" w="777" h="498" measuredW="480" measuredH="321" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/themenumber3.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="2851" y="975" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/four.png</src>
+        <text/>
       </controlProperties>
     </control>
   </controls>
