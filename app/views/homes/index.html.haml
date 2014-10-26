@@ -1,9 +1,21 @@
+                     
+/ :javascript
+/   var wow = new WOW(
+/   {
+/   boxClass:     'wow',      // animated element css class (default is wow)
+/   animateClass: 'animated', // animation css class (default is animated)
+/   offset:       0,          // distance to the element when triggering the animation (default is 0)
+/   mobile:       true,       // trigger animations on mobile devices (default is true)
+/   live:         true        // act on asynchronously loaded content (default is true)
+/   }
+/   );
+/   wow.init();
 .header
   %section
     .intro
       .row
         .small-6.columns
-          #George
+          #George.wow.rotateInDownLeft
             %a{:name => "home"}
             %h1 George Somerville
         .small-6.columns    
@@ -58,7 +70,7 @@
           %li
             %img{src: "/assets/rails-logo.png" , style:"width:80px; height:90px"}
           %li
-            %img{src: "/assets/backbone-logo.png", style:"width:80px; height:90px"}
+            %img{src: "/assets/angular-js-logo.png", style:"width:80px; height:90px"}
           %li
             %img{src: "/assets/haml_logo.png", style:"width:80px; height:90px"}
           %li 
@@ -93,7 +105,7 @@
       .row.small-padding
         .small-8.columns
           %h3 Wifinder        
-          %p  Create and save your Wifi networks, view friends networks and share networks with your friends. This was my Second project which I developed different parts of it within a group. I was task with developing the layout, homepage and creating animation using CSS3 and javascript. 
+          %p  Create and save your Wifi networks, view friends networks and share networks with your friends. This was my second project which I developed different parts of it within a group. I was task with developing the layout, homepage and creating animation using CSS3 and javascript. 
         .small-4.columns 
           .img-container-project
             %a{href: "http://mighty-springs-1118.herokuapp.com/"}
