@@ -21,6 +21,13 @@ $(function(){
     );
   };
 
+  var scrollorama = $.superscrollorama({ block:'.scrollblock'})
+
+  
+  console.log(scrollorama().animate)
+  scrollorama().animate('#title1',{ duration: 300, property:'zoom', end: 8 });
+    console.log(scrollorama().animate())
+  // controller.animate('#title1',{ duration: 300, property:'zoom', end: 8 });
   function changeText(){
     $("#changeText")
   }
