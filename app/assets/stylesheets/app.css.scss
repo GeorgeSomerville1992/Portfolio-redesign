@@ -202,6 +202,16 @@ section{
   height:100%;
 
 }
+.animateFlip:hover{
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  width: 100%;
+  height: 180px;
+  transition: all .25s ease-out;
+  padding: 20px;
+}
+
 .ga-projects-container{
   background-color: $themeColorRed;
   width:100%;
